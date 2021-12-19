@@ -16,18 +16,22 @@ which Aladdin can start his journey and visit all of the
 places in the circular path in order. If there is no solution, return -1
 
 For example, there are n = 4 sources of magic along his
-route: magic = [3, 2, 5, 4] and dist = [2, 3, 4, 2]. The
-first attempt is starting at the first source, magic[0]
-3. He transports there without cost and collects 3 units
-of magic. The distance to the next point is dist[0] = 2.
-It takes 2 units of magic to get there and he collects
+route: <br/>
+magic = [3, 2, 5, 4] and <br/>
+dist = [2, 3, 4, 2]. <br/>
+Thefirst attempt is starting at the first source, magic[0]
+3. 
+<br/>He transports there without cost and collects 3 units
+of magic. 
+<br/>The distance to the next point is dist[0] = 2.
+<br/>It takes 2 units of magic to get there and he collects
 magic[1] = 2 units upon arrival, so he has 3 - 2 + 2 =
 3 units of magic after making his first carpet ride.
 Continuing along the journey:
-
-3 - dist[1] + magic(2] = 3 - 3 + 5 = 5
-• 5 - dist[2] + magic|3] = 5 - 4 + 4 = 5
-• 5 - dist|3] = 5 - 2 = 3
+<br/>
+• 3 - dist[1] + magic(2] = 3 - 3 + 5 = 5<br/>
+• 5 - dist[2] + magic|3] = 5 - 4 + 4 = 5<br/>
+• 5 - dist|3] = 5 - 2 = 3<br/>
 At this point, he is back to the first source. Because he
 can complete his journey starting at source magic[O],
 there is no reason to continue with the analysis so its
@@ -40,17 +44,17 @@ magic|3] in this example, the next source on the path is
 magic(0].
 
 
-
-Function Description
+<br/>
+Function Description<br/>
 Complete the function optimalPoint in the editor
 below. The function must return an integer that
 denotes the minimum index of magic from which he
 can start a successful journey. If no such starting point
-exists, return - 1.
-optimalPoint has the following parameter(s):
-magic[magic[0],…..magic[n-11]: an array of integers
+exists, return - 1.<br/>
+optimalPoint has the following parameter(s):<br/>
+magic[magic[0],…..magic[n-11]: an array of integers<br/>
 where magic[il denotes the amount of magic in the th
-source
-dist[dist[O]….dist[n-11]: an array of integers where
+source<br/>
+dist[dist[O]….dist[n-11]: an array of integers where<br/>
 dist[i] denotes the distance to the next magical source
 
